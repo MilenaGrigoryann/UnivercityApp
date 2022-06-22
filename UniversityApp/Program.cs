@@ -22,7 +22,7 @@ namespace University
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            services
+            services.AddServices()
                 .AddSingleton(typeof(Univercity))
                 .AddSingleton(typeof(StudentDetails));
 
